@@ -3,24 +3,26 @@
 > [EPIC-KITCHENS-100](https://epic-kitchens.github.io/) is the largest dataset in first-person (egocentric) vision. In this file, we propose the scale below to encode the supervision levels of the methods submitted to the various challenge leaderboards of EPIC-KITCHENS.   
 
 ### Introduction
-As methods submit to the challenge leaderboards, they are requested to declare the level of supervision used in training their model(s). The introduction of the Supervision Levels Scale (SLS) intends to acknowledge methods that use less supervision as well as identify cases where additional supervision could have given one method an advantage over another. We propose this scale for the challenge leaderboards of EPIC-KITCHENS. This scale can be equally applicable to other datasets. 
+As methods submit to the challenge leaderboards, they are requested to declare the level of supervision used in training their model(s). The introduction of the Supervision Levels Scale (SLS) intends to acknowledge methods that use less supervision as well as identify how additional supervision assists performance. In [this technical report](SLS.pdf), we propose a general SLS framework, which is adapted to the EPIC-KITCHENS dataset challenges, as detailed next.
 
 **We do not encourage or discourage any level of supervision**. We will decide the winners for the various awards by the rank on the leaderboard regardless of the level of supervision. However, we reserve the right to award additional awards when sufficient methods have successfully competed with significantly less supervision. 
 
-While we rely on self reporting of supervision levels, we reserve the right to request the training code or the model to check the correctness of the indicated supervision level.
+While we rely on self reporting of SLS, per submission, we reserve the right to request the training code or model details to check the correctness of the indicated supervision level.
 
-* SLS is proposed by: Dima Damen
+* SLS is proposed by: Dima Damen and Michael Wray
 
 * Contact: [uob-epic-kitchens@bristol.ac.uk](mailto:uob-epic-kitchens@bristol.ac.uk)
 
 ### Citing
-When using the scale, kindly reference this GitHub as well as:
+When using the scale, kindly reference:
 ```
-@techreport{Damen2020RESCALING,
+@techreport{Damen2020SLS,
    title={Supervision Levels Scale (SLS)},
    author={Damen, Dima and Wray, Michael},
-           journal   = {CoRR},
+           institution   = {University of Bristol},
            year      = {2020},
+           month     = {8},
+           Date-Added = {2020-08-20}
 } 
 ```
 
