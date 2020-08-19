@@ -16,17 +16,17 @@ While we rely on self reporting of supervision levels, we reserve the right to r
 ### Citing
 When using the scale, kindly reference this GitHub as well as:
 ```
-@ARTICLE{Damen2020RESCALING,
-   title={Rescaling Egocentric Vision},
-   author={Damen, Dima and Doughty, Hazel and Farinella, Giovanni Maria  and and Furnari, Antonino 
-           and Ma, Jian and Kazakos, Evangelos and Moltisanti, Davide and Munro, Jonathan 
-           and Perrett, Toby and Price, Will and Wray, Michael},
+@techreport{Damen2020RESCALING,
+   title={Supervision Levels Scale (SLS)},
+   author={Damen, Dima and Wray, Michael},
            journal   = {CoRR},
-           volume    = {abs/2006.13256},
            year      = {2020},
-           ee        = {http://arxiv.org/abs/2006.13256},
 } 
 ```
+
+### Summary
+
+![SLS for EPIC-KITCHENS-100](epic-sls.png)
 ### SLS Dimensions
 
 Our proposed SLS is split into three dimensions: Pre-training (PT), Training labels (TL) and amount of Training data (TD)
