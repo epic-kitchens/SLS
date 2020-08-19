@@ -2,7 +2,7 @@
 
 > [EPIC-KITCHENS-100](https://epic-kitchens.github.io/) is the largest dataset in first-person (egocentric) vision. In this file, we propose the scale below to encode the supervision levels of the methods submitted to the various challenge leaderboards of EPIC-KITCHENS.   
 
-### Introduction
+## Introduction
 As methods submit to the challenge leaderboards, they are requested to declare the level of supervision used in training their model(s). The introduction of the Supervision Levels Scale (SLS) intends to acknowledge methods that use less supervision as well as identify how additional supervision assists performance. In [this technical report](SLS.pdf), we propose a general SLS framework, which is adapted to the EPIC-KITCHENS dataset challenges, as detailed next.
 
 **We do not encourage or discourage any level of supervision**. We will decide the winners for the various awards by the rank on the leaderboard regardless of the level of supervision. However, we reserve the right to award additional awards when sufficient methods have successfully competed with significantly less supervision. 
@@ -10,8 +10,6 @@ As methods submit to the challenge leaderboards, they are requested to declare t
 While we rely on self reporting of SLS, per submission, we reserve the right to request the training code or model details to check the correctness of the indicated supervision level.
 
 * SLS is proposed by: Dima Damen and Michael Wray
-
-* Contact: [uob-epic-kitchens@bristol.ac.uk](mailto:uob-epic-kitchens@bristol.ac.uk)
 
 ### Citing
 When using the scale, kindly reference:
@@ -26,9 +24,16 @@ When using the scale, kindly reference:
 } 
 ```
 
-### Summary
+## SLS for EPIC-KITCHENS-100
+
+Supevision Levels Scale (SLS) is a three-dimensional discrete and incremental scale to encode a method’s level of supervision. To submit to any EPIC-KITCHENS-100 leaderboard, researchers are requested to self-declare the dimensions below. Follow the quick guide figure, or look through the details. Do not hesitate to get in touch if you have any questions.
+
+* Contact: [uob-epic-kitchens@bristol.ac.uk](mailto:uob-epic-kitchens@bristol.ac.uk)
+
+### Quick Guide
 
 ![SLS for EPIC-KITCHENS-100](epic-sls.png)
+
 ### SLS Dimensions
 
 Our proposed SLS is split into three dimensions: Pre-training (PT), Training labels (TL) and amount of Training data (TD)
