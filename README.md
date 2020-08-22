@@ -9,7 +9,7 @@ As methods submit to the challenge leaderboards, they are requested to declare t
 
 While we rely on self reporting of SLS, per submission, we reserve the right to request the training code or model details to check the correctness of the indicated supervision level.
 
-* SLS is proposed by: Dima Damen and Michael Wray
+* SLS is proposed by: [Dima Damen](http://dimadamen.github.io/) and [Michael Wray](https://mwray.github.io) (University of Bristol)
 
 ### Citing
 When using the scale, kindly reference:
