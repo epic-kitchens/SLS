@@ -3,7 +3,7 @@
 > [EPIC-KITCHENS-100](https://epic-kitchens.github.io/) is the largest dataset in first-person (egocentric) vision. In this file, we propose the scale below to encode the supervision levels of the methods submitted to the various challenge leaderboards of EPIC-KITCHENS.   
 
 ## Introduction
-As methods submit to the challenge leaderboards, they are requested to declare the level of supervision used in training their model(s). The introduction of the Supervision Levels Scale (SLS) intends to acknowledge methods that use less supervision as well as identify how additional supervision assists performance. In [this technical report](SLS.pdf), we propose a general SLS framework, which is adapted to the EPIC-KITCHENS dataset challenges, as detailed next.
+As methods submit to the challenge leaderboards, they are requested to declare the level of supervision used in training their model(s). The introduction of the Supervision Levels Scale (SLS) intends to acknowledge methods that use less supervision as well as identify how additional supervision assists performance. In [our ArXiv paper](https://arxiv.org/abs/2008.09890), we propose a general SLS framework, which is adapted to the EPIC-KITCHENS dataset challenges, as detailed next.
 
 **We do not encourage or discourage any level of supervision**. We will decide the winners for the various awards by the rank on the leaderboard regardless of the level of supervision. However, we reserve the right to award additional awards when sufficient methods have successfully competed with significantly less supervision. 
 
@@ -14,14 +14,14 @@ While we rely on self reporting of SLS, per submission, we reserve the right to 
 ### Citing
 When using the scale, kindly reference:
 ```
-@techreport{Damen2020SLS,
-   title={Supervision Levels Scale (SLS)},
-   author={Damen, Dima and Wray, Michael},
-           institution   = {University of Bristol},
-           year      = {2020},
-           month     = {8},
-           Date-Added = {2020-08-20}
-} 
+@ARTICLE{Damen2020SLS,
+    title={Supervision Levels Scale (SLS)},
+    author={Dima Damen and Michael Wray},
+    journal   = {CoRR},
+    volume    = {abs/2008.09890},
+    year      = {2020},
+    ee        = {http://arxiv.org/abs/2008.09890},
+}
 ```
 
 ## SLS for EPIC-KITCHENS-100
@@ -107,4 +107,4 @@ SLS-0-3-2
 
 ### Motivation and Limitations
 
-For motivation and limitations, we ask the reader to refer to [our technical report](SLS.pdf).
+For motivation and limitations, we ask the reader to refer to [Supervision Levels Scale (SLS) ArXiv paper](https://arxiv.org/abs/2008.09890).
